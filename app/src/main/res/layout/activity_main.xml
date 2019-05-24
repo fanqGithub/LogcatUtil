@@ -16,18 +16,21 @@
         android:padding="15dp">
 
         <ImageView
+            android:id="@+id/toTopBtn"
             android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_weight="1"
             android:src="@drawable/ic_vertical_align_top_black_24dp" />
 
         <ImageView
+            android:id="@+id/toBottomBtn"
             android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_weight="1"
             android:src="@drawable/ic_vertical_align_bottom_black_24dp" />
 
         <ImageView
+            android:id="@+id/clearBtn"
             android:layout_width="0dp"
             android:layout_height="30dp"
             android:layout_weight="1"
@@ -46,8 +49,7 @@
         <TextView
             android:id="@+id/logContent"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Hello Log!" />
+            android:layout_height="wrap_content" />
     </ScrollView>
 
     <LinearLayout
